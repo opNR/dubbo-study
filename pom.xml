@@ -15,13 +15,14 @@
     <source.level>1.8</source.level>
     <target.level>1.8</target.level>
     <spring.version>4.3.16.RELEASE</spring.version>
+    <spring-boot.version>1.5.13.RELEASE</spring-boot.version>
     <dubbo.version>2.6.2</dubbo.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.springframework</groupId>
+        <groupId>org.springitgframework</groupId>
         <artifactId>spring-framework-bom</artifactId>
         <version>${spring.version}</version>
         <type>pom</type>
@@ -55,7 +56,7 @@
       </plugin>
     </plugins>
 
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <pluginManagement>
       <plugins>
         <plugin>
           <groupId>org.springframework.boot</groupId>
