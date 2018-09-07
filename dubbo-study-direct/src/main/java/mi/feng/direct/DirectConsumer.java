@@ -1,6 +1,6 @@
-package mi.feng;
+package mi.feng.direct;
 
-import mi.feng.api.DirectService;
+import mi.feng.direct.api.DirectService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

@@ -11,6 +11,7 @@
 
   <modules>
     <module>dubbo-study-direct</module>
+    <module>dubbo-study-monitor</module>
   </modules>
 
   <properties>

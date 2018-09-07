@@ -1,7 +1,7 @@
-package mi.feng.impl;
+package mi.feng.direct.impl;
 
 import com.alibaba.dubbo.rpc.RpcContext;
-import mi.feng.api.DirectService;
+import mi.feng.direct.api.DirectService;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

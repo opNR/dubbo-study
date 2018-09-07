@@ -1,4 +1,4 @@
-package mi.feng.api;
+package mi.feng.direct.api;
 
 /**
  * @Auther: MiFeng

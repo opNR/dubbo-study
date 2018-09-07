@@ -1,8 +1,6 @@
-package mi.feng;
+package mi.feng.direct;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.io.IOException;
 
 /**
  * @Auther: MiFeng

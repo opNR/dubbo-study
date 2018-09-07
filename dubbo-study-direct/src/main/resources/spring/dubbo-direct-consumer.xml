@@ -11,6 +11,6 @@
     <!--<dubbo:registry address="zookeeper://127.0.0.1:2181"/>-->
 
     <!-- 为远程服务生成代理，然后可以像使用本地常规接口一样使用demoService -->
-    <dubbo:reference id="directService" check="false" interface="mi.feng.api.DirectService" url="localhost:20880"/>
+    <dubbo:reference id="directService" check="false" interface="mi.feng.direct.api.DirectService" url="localhost:20880"/>
 
 </beans>
