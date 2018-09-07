@@ -1,0 +1,16 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 使用者的应用程序名称，用于跟踪依赖关系（不是匹配条件），不要将其设置为与提供者相同 -->
+    <dubbo:application name="demo-consumer"/>
+
+    <!-- 使用多播注册中心来发现服务 -->
+    <!--<dubbo:registry address="zookeeper://127.0.0.1:2181"/>-->
+
+    <!-- 为远程服务生成代理，然后可以像使用本地常规接口一样使用demoService -->
+    <dubbo:reference id="directService" check="false" interface="mi.feng.api.DirectService" url="localhost:20880"/>
+
+</beans>
