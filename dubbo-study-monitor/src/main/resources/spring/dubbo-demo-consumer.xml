@@ -10,6 +10,6 @@
 
     <dubbo:monitor protocol="registry"/>
 
-    <dubbo:reference id="demoService" check="false"  interface="mi.feng.monitor.impl.DemoServiceImpl"/>
+    <dubbo:reference id="demoService" check="false"  interface="mi.feng.monitor.api.DemoService"/>
 
 </beans>
